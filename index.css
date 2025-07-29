@@ -1,0 +1,35 @@
+body{
+    background-size: cover;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;    
+    font-family: "Open Sans", sans-serif;
+}
+h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h2{
+    font-size:50px;
+    font-weight: bold;
+    font-style: normal;
+    font-family: "Open Sans",
+        sans-serif;
+}
+button{
+   border-bottom: 5px;
+   border-radius: 5px;
+   margin-bottom: 5px;
+   padding: 2px 2px ;
+   font-weight: bold;
+   margin-top: 5px;
+}
+
+#increment-btn{
+    background: darkred;
+    color: white;
+}
+#save-btn{
+    background: darkgreen;
+}
