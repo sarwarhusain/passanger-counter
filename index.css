@@ -11,7 +11,7 @@ h1{
     margin-bottom: 10px;
 }
 h2{
-    font-size:50px;
+    font-size:20px;
     font-weight: bold;
     font-style: normal;
     font-family: "Open Sans",
@@ -20,8 +20,8 @@ h2{
 button{
    border-bottom: 5px;
    border-radius: 5px;
-   margin-bottom: 5px;
-   padding: 2px 2px ;
+   margin-bottom: 15px;
+   padding: 5px 30px 5px 30px;
    font-weight: bold;
    margin-top: 5px;
 }
@@ -32,4 +32,5 @@ button{
 }
 #save-btn{
     background: darkgreen;
+    color: white;
 }
