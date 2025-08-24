@@ -1,0 +1,40 @@
+body {
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+img {
+    width: 200px;
+    display: block;
+    border: 2px solid rgb(228, 213, 185);
+    border-radius: 15px;
+}
+
+p {
+    font-weight: 500px;
+    margin-bottom: 5px;
+}
+
+button {
+    background: white;
+    color: black;
+    margin-top: 20px;
+    border: 1px solid black;
+    font-weight: bold;
+    padding: 10px 14px;
+    border-radius: 20px;
+    cursor: ne-resize;
+}
+
+#error {
+    color: red;
+    font-weight: 220px;
+}
+
+.xBox {
+    border: 2px solid tomato;
+    align-items: center;
+    justify-content: center;
+}
