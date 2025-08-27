@@ -1,20 +1,22 @@
-// <!-- build a passenger counter app using js -->
+let player1Time = 108;
+let Player2Time = 111;
 
-//projects
-// document.getElementById("count-el").innerText = 60;
-
-let count = 0;
-let countEl = document.getElementById("count-el");
-let saveEl = document.getElementById("save-el");
-// console.log(countEl);
-
-function increment() {
-  count += 1;
-  countEl.textContent = count;
+//cmd+d ctrl+d
+function getFastest() {
+  if (player1Time < Player2Time) {
+    return player1Time;
+  } else if (Player2Time < player1Time) {
+    return Player2Time;
+  } else {
+    return player1Time;
+  }
 }
-function save() {
-  let countStr = count + " - ";
-  saveEl.textContent += countStr;
-  countEl.textContent = 0;
-  count = 0;
+
+// let fastestRace = getFastest();
+// console.log(fastestRace);
+
+function getTotalRace() {
+  return player1Time + Player2Time;
 }
+let totalRace = getTotalRace();
+console.log(totalRace);
